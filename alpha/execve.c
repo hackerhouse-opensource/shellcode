@@ -1,8 +1,11 @@
-/* Linux Alpha (AXP) execve() shellcode
-*  ====================================
+/* Alpha (AXP) Linux/Tru64 execve() shellcode
+*  ==========================================
 * This shellcode uses the stack to store a generated
 * "callsys" instruction, due to this it needs executable
-* stack. To test on Linux use "execstack -s <bin>".
+* stack. To test on Linux use "execstack -s <bin>" and
+* on Tru64 use "sysconfig -r proc executable_stack=1".
+* 
+* Tested against Tru64 5.1B & Linux 2.6.26-2-alpha-generic
 *
 * -- Hacker Fantastic (https://hacker.house)
 */

@@ -4,7 +4,7 @@ Shellcodes for use during exploit development written by the team at Hacker Hous
 
 | Filename | Description |
 | :---: | :--- |
-| *linux-alpha/execve.c* | execve("/bin/sh"); for Linux on AXP | 
+| *linux-alpha/execve.c* | execve("/bin/sh"); for Tru64/Linux alpha systems | 
 | *linux-x86/cpuid.c* | CPU identification instruction experiment | 
 | *linux-x86/linux_tolower_remote.S* | execve("/bin/sh"); tolower(); | 
 | *linux-x86/prdelka-vs-LINUX-shellcode.tgz* | ShellCORE (multiple in-memory modular shellcodes) |
