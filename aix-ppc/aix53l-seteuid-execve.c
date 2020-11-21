@@ -7,8 +7,8 @@
 * a payload on AIX hosts. The shellcode here is adapted and
 * re-worked from LSD-pl unixcodes paper, requiring only an  
 * additional "xor" and corrected svca variables to work on
-* on 5.3L. On AIX when performing privilege escalation, a 
-* call to setuid(uid) can recover privileges however real
+* a 5.3L. On AIX when performing privilege escalation, a 
+* priv drop setuid(uid) can recover privileges however real
 * uid calls are strict, a process cannot recover from a 
 * setreuid() call and such calls will fail after seteuid()
 * however effective privileges can still be obtained if a 
