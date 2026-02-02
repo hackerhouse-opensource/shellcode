@@ -10,5 +10,7 @@ Shellcodes for use during exploit development written by the team at Hacker Hous
 | *linux-x86/linux_tolower_remote.S* | execve("/bin/sh"); tolower(); | 
 | *linux-x86/prdelka-vs-LINUX-shellcode.tgz* | ShellCORE (multiple in-memory modular shellcodes) |
 
-These files are available under a Attribution-NonCommercial-NoDerivatives 4.0 International license.
+# License
+
+These files are available under the 3-clause BSD license.
 
